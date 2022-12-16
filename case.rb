@@ -1,21 +1,21 @@
-print "Enter your day: "  
- 
-day = gets.chomp
+print "Enter your day:"
 
-case day   
-when "tuesday"
-  puts "Wear Red or Orange"   
-when "wednesday"   
-  puts "Wear Green"   
-when "thursday"   
-  puts "Wear Yellow"
-when "friday"   
-  puts "Wear White"   
+day =gets.chomp
 
-when "saturday"   
-  puts "Wear Black"   
+case day 
+when"Tuesday"
+  puts "Wear Red or Orange"
+when "Wednesday"
+  puts "Wear Green"
+when "Thursday"
+  puts "Wear Yellow"
+when "Friday"
+puts"Wear White"
 
-else   
-  puts "Wear Any color"   
+when "Saturday"
+ puts "Wear Black"
 
-end   
+else
+ puts"Wear Any color"
+
+end
